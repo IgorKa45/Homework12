@@ -1,8 +1,8 @@
-public class Autor {
+public class Author {
     private String firstName;
     private String secondName;
 
-    public Autor(String firstName, String secondName) {
+    public Author(String firstName, String secondName) {
         this.firstName = firstName;
         this.secondName = secondName;
     }
