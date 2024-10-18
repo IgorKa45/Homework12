@@ -26,9 +26,9 @@ public class Book {
     public void setYearOfPublication(int yearOfPublication) {
         this.yearOfPublication = yearOfPublication;
     }
-
+    @Override
     public String toString() {
-        return "Название: " + name + "Автор (" + author + "). Год публикации: " + yearOfPublication + ".";
+        return "Название: " + name + "Автор (" + author.getFirstName() + "). Год публикации: " + yearOfPublication + ".";
     }
     @Override
     public boolean equals(Object o) {
